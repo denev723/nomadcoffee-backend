@@ -10,7 +10,4 @@ type User {
 	createdAt: String!
 	updatedAt: String!
 }
-type Query {
-	seeProfile(username: String): User
-}
 `
