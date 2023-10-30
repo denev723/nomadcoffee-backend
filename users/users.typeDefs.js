@@ -5,8 +5,14 @@ type User {
 	email: String!
 	name: String!
 	location: String
-	avatarURL: String
+	avatar: String
 	githubUsername: String
+	following: [User]
+	followers: [User]
+	totalFollowers: Int!
+	totalFollowing: Int!
+	isMe: Boolean!
+	isFollowing: Boolean!
 	createdAt: String!
 	updatedAt: String!
 }

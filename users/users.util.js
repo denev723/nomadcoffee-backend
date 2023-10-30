@@ -20,12 +20,6 @@ export const getUser = async (token) => {
   }
 };
 
-export const protectResolver = (user) => {
-  if (!user) {
-    throw new Error("You need to login.");
-  }
-};
-
 export const protectedResolvers =
   (ourResolver) => (root, args, context, info) => {
     if (!context.loggedInUser) {
