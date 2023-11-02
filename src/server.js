@@ -21,6 +21,7 @@ async function startApolloServer(typeDefs, resolvers) {
     resolvers,
     plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
     csrfPrevention: false,
+    playground: true,
   });
 
   await server.start();
