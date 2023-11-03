@@ -24,6 +24,7 @@
   "homepage": "https://github.com/denev723/nomadcoffee-backend#readme",
   "dependencies": {
     "@apollo/server": "^4.9.4",
+    "@babel/runtime": "^7.23.2",
     "@graphql-tools/load-files": "^7.0.0",
     "@graphql-tools/merge": "^9.0.0",
     "@graphql-tools/schema": "^10.0.0",
@@ -44,7 +45,6 @@
     "@babel/node": "^7.22.19",
     "@babel/plugin-transform-runtime": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
-    "@babel/runtime": "^7.23.2",
     "nodemon": "^3.0.1",
     "prisma": "^5.4.2"
   },
